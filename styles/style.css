@@ -31,4 +31,11 @@ ul li a:hover {
   font-family: monospace;
   line-height: 1;
   color: aliceblue;
+}
+.text::after {
+  content: "";
+  display: block;
+  width: 500px;
+  height: 4px;
+  background: #84E;
 }/*# sourceMappingURL=style.css.map */
