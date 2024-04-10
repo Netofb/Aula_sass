@@ -1,26 +1,26 @@
 
-@mixin text{
+// @mixin text{
    
-        font-size: 1em;
-        font-weight: bold;
-        font-family: monospace;
-        line-height: 1;
-        color: aliceblue
-}
-@mixin separador($color, $largura){
-        &::after{
-                content: '';
-                display: block;
-                width: $largura;
-                height: 4px;
-                background: $color
-        }
-}
+//         font-size: 1em;
+//         font-weight: bold;
+//         font-family: monospace;
+//         line-height: 1;
+//         color: aliceblue
+// }
+// @mixin separador($color, $largura){
+//         &::after{
+//                 content: '';
+//                 display: block;
+//                 width: $largura;
+//                 height: 4px;
+//                 background: $color
+//         }
+// }
 
-.text{
-        @include text;
-        @include separador(#84E, 500px);
-}
+// .text{
+//         @include text;
+//         @include separador(#84E, 500px);
+// }
 
 
 
