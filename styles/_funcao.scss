@@ -1,0 +1,17 @@
+
+
+
+
+a{
+    color: white;
+    &:hover, &.active{
+        // background: lighten(#000000, 10%);
+        background: darken(#000000, 80%);
+    }
+}
+
+
+
+
+
+

@@ -1,71 +1,71 @@
 
-$tema: oceano;
-$primary-color: black;
-$secondary-color: gray;
+// $tema: oceano;
+// $primary-color: black;
+// $secondary-color: gray;
 
-@if $tema == oceano{
-    $primary-color: blue;
-    $secondary-color: orange;
-} @else if $tema == deserto{
-    $primary-color: yellow;
-    $secondary-color: purple;
-}
+// @if $tema == oceano{
+//     $primary-color: blue;
+//     $secondary-color: orange;
+// } @else if $tema == deserto{
+//     $primary-color: yellow;
+//     $secondary-color: purple;
+// }
 
-h4{
-    color: $primary-color;
-    background: $secondary-color;
-}
-
-
-
-@mixin type-1($size){
-    font-family: monospace;
-    font-weight: normal;
-    @if $size == 16{
-        font-size: 1em;
-    }
-    @else if $size == 18{
-        font-size: 1.25em;
-    }
-    @else if $size == 24{
-        font-size: 1.5em;
-    }
-}
+// h4{
+//     color: $primary-color;
+//     background: $secondary-color;
+// }
 
 
+
+// @mixin type-1($size){
+//     font-family: monospace;
+//     font-weight: normal;
+//     @if $size == 16{
+//         font-size: 1em;
+//     }
+//     @else if $size == 18{
+//         font-size: 1.25em;
+//     }
+//     @else if $size == 24{
+//         font-size: 1.5em;
+//     }
+// }
 
 
 
 
-@mixin device($device){
-    @if $device == small{
-        @media(max-width: 300px){
-            @content;
-        }
-    }
-    @else if $device == medium{
-        @media(max-width: 600px){
-            @content;
-        }
-    }
-    @else if $device == large{
-        @media(max-width: 900px){
-            @content;
-        }
-    }
-}
-div{
-    width: 100%;
-    @include device(small){
-        width: 80%;
-    }
-    @include device(medium){
-        width: 60%;
-    }
-    @include device(large){
-        width: 40%;
-    }
-}
+
+
+// @mixin device($device){
+//     @if $device == small{
+//         @media(max-width: 300px){
+//             @content;
+//         }
+//     }
+//     @else if $device == medium{
+//         @media(max-width: 600px){
+//             @content;
+//         }
+//     }
+//     @else if $device == large{
+//         @media(max-width: 900px){
+//             @content;
+//         }
+//     }
+// }
+// div{
+//     width: 100%;
+//     @include device(small){
+//         width: 80%;
+//     }
+//     @include device(medium){
+//         width: 60%;
+//     }
+//     @include device(large){
+//         width: 40%;
+//     }
+// }
 
 
 
