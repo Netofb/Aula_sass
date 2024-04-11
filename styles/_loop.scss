@@ -43,12 +43,12 @@
 //     }
 // }
 
-@for $i from 1 through 12 {
-    $width: $i / 12 * 100% ;
-    .item-#{$i}{
-        width: $width;
-    }
-}
+// @for $i from 1 through 12 {
+//     $width: $i / 12 * 100% ;
+//     .item-#{$i}{
+//         width: $width;
+//     }
+// }
 
 
 
@@ -58,7 +58,7 @@ $numero: 1;
     .type-#{$numero} {
         font-size: 16 * $numero + px;
     }
-    $numero: $numero + 2;
+    $numero: $numero + 1;
 }
 
 

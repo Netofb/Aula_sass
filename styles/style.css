@@ -7,4 +7,28 @@ a {
 }
 a:hover, a.active {
   background: black;
+}
+
+.type-1 {
+  font-size: 16px;
+}
+
+.type-2 {
+  font-size: 32px;
+}
+
+.type-3 {
+  font-size: 48px;
+}
+
+.type-4 {
+  font-size: 64px;
+}
+
+.type-5 {
+  font-size: 80px;
+}
+
+.type-6 {
+  font-size: 96px;
 }/*# sourceMappingURL=style.css.map */
