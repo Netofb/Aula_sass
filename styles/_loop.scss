@@ -1,0 +1,76 @@
+
+// @for $i from 1 through 6 {
+//     .item{
+//         width: $i;
+//     }
+// }
+
+
+
+// @for $i from 1 through 6 {
+//     .item {
+//         width: 200px * $i;
+//     }
+// }
+
+
+
+// @for $i from 1 through 6 {
+//     .item-#{$i}{
+//         width: 200px * $i;
+//     }
+// }
+
+// $container: 960;
+// $gutter: 20;
+// $colunas: 12;
+
+
+// @for $i from 1 through $colunas {
+//     $width: $container / $colunas * $i - $gutter;
+//     .item-#{$i}{
+//         width: $width + px;
+//     }
+// }
+
+
+
+
+// @for $i from 1 through 12 {
+//     $width: percentage(1 / $i);
+//     .item-#{$i}{
+//         width: $width;
+//     }
+// }
+
+@for $i from 1 through 12 {
+    $width: $i / 12 * 100% ;
+    .item-#{$i}{
+        width: $width;
+    }
+}
+
+
+
+$numero: 1;
+
+@while $numero <= 6 {
+    .type-#{$numero} {
+        font-size: 16 * $numero + px;
+    }
+    $numero: $numero + 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
